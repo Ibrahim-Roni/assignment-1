@@ -110,7 +110,7 @@ header .sign-in a {
     max-width: 100%;
 }
 
-#vision h2 {
+h2 {
     font-size: 40px;
     margin-bottom: 24px;
 }
@@ -175,7 +175,7 @@ p {
 }
 
 .card-2 .btn:hover {
-    background: #05683b;
+    background: #087544;
 }
 
 .card-3 .btn {
@@ -184,4 +184,73 @@ p {
 
 .card-3 .btn:hover {
     background: #e2ac2f;
+}
+
+
+.paragraph {
+    padding: 48px 24px 36px 24px;
+    margin-top: 32px;
+    background-color: var(--bg-color);
+    background-image: url(/images/quote-bg.png);
+    border: 0.5px solid rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    background-position: top 15% left 2%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.paragraph p {
+    margin-bottom: 12px;
+}
+
+
+
+/* News Section */
+
+#news {
+    max-width: 1280px;
+    height: 770px;
+}
+
+.news-container {
+    width: 100%;
+    height: 100%;
+}
+
+.news-box {
+    max-width: 100%;
+    height: 402px;
+    background: var(--bg-color);
+    margin-bottom: 24px;
+    border-radius: 15px;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-box {
+    height: 280px;
+    width: 940px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(/images/satelite.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 32px;
+}
+
+.news-box img {
+    margin-bottom: 10px;
+}
+
+.text-news {
+    margin-left: 32px;
+}
+
+.date-time {
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
 }
