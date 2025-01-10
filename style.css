@@ -71,15 +71,16 @@ header .sign-in a {
 
 #home {
     position: relative;
-    height: 560px;
     max-width: 1280px;
     background-color: var(--main-color);
     border-radius: 15px;
     padding: 57px;
+    margin-bottom: 80px;
 }
 
 .home-container {
     display: flex;
+    height: 560px;
     justify-content: space-between;
     align-items: center;
 }
@@ -98,4 +99,89 @@ header .sign-in a {
 
 .home-image {
     margin-top: 20px;
+}
+
+
+/* The Vision of Future */
+
+#vision {
+    position: relative;
+    height: 765px;
+    max-width: 100%;
+}
+
+#vision h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+
+.card-container {
+    height: 325px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    max-width: 410px;
+    height: 325px;
+    padding: 32px;
+    background: #548ff54b;
+    border-radius: 15px;
+}
+
+.card-2 {
+    background: #C6E4D6;
+}
+
+.card-3 {
+    background: #F7EBCF;
+}
+
+.card img {
+    width: 64px;
+    margin-bottom: 24px;
+}
+
+.card h4 {
+    margin-bottom: 12px;
+}
+
+.card p {
+    margin-bottom: 24px;
+}
+
+.card-1 .btn {
+    background: #5490F5;
+}
+
+.card-1 .btn:hover {
+    background: #2c72e9;
+}
+
+.card-2 p {
+    margin-bottom: 44px;
+}
+
+.card-2 .btn {
+    background: #09A15C;
+}
+
+.card-2 .btn:hover {
+    background: #05683b;
+}
+
+.card-3 .btn {
+    background: #FFC239;
+}
+
+.card-3 .btn:hover {
+    background: #e2ac2f;
 }
