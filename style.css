@@ -209,7 +209,7 @@ p {
 
 #news {
     max-width: 1280px;
-    height: 770px;
+    height: 980px;
 }
 
 .news-container {
@@ -253,4 +253,63 @@ p {
     display: flex;
     width: 240px;
     justify-content: space-between;
+}
+
+
+
+/* Donetion Section */
+
+#donetion {
+    margin-top: 80px;
+    height: 465px;
+    text-align: center;
+}
+
+.donet-desc {
+    width: 100%;
+    padding: 0 80px;
+}
+
+.amount {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.amount-box {
+    padding: 25px 30px 5px 30px;
+    border: 0.5px solid rgba(110, 110, 110, 0.349);
+    border-radius: 15px;
+    background: var(--bg-color);
+}
+
+.amount-box:hover {
+    background: var(--main-color);
+}
+
+span {
+    background: var(--main-color);
+}
+
+.amount-box-bx {
+    background: var(--main-color);
+    padding: 25px 30px 5px 30px;
+    border: 0.5px solid rgba(110, 110, 110, 0.349);
+    border-radius: 15px;
+}
+
+#donetion input {
+    width: 80%;
+    padding: 20px 40px;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#donetion button {
+    margin: 32px;
 }
