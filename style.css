@@ -76,7 +76,7 @@ header .sign-in a {
 
 #home {
     position: relative;
-    max-width: 1280px;
+    max-width: 100%;
     background-color: var(--main-color);
     border-radius: 15px;
     padding: 57px;
@@ -213,7 +213,7 @@ p {
 /* News Section */
 
 #news {
-    max-width: 1280px;
+    max-width: 100%px;
     height: 980px;
 }
 
@@ -378,7 +378,7 @@ span {
 
 .footer-body {
     height: 226px;
-    max-width: 1600px;
+    max-width: 100%;
     background: var(--bg-color);
     display: flex;
     justify-content: center;
